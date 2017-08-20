@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/reinvantveer/movie-subtitler#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "pug": "^2.0.0-rc.3"
   },
   "devDependencies": {
-    "eslint": "^4.5.0"
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1"
   }
 }

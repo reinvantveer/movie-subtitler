@@ -1,10 +1,41 @@
 html5
   head
-    title= title
+    title Super Bollywood Ondertitelapp!
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
   body
-    div.container
+    .container
       h1 De Speciale Wieke En Hugo 12,5 Jaar Bij Elkaar Bollywood Ondertitelingsshow!
       p Help onze gastheren met een fantastisch feest! Geef dit cheesy Bollywoodfragment nieuwe ondertitels die waardig is aan de rijke relatie van Wieke en Hugo. Ga los met strijkbouten, fietszitjes en andere dagelijkse beslommeringen, maak er iets moois van!
-      
+      form(action="/sub", method="post")
+        .jumbotron 
+          img(src="../stills/snapshot-1.jpg", alt="", style="width:100%;")
+          br
+          p
+            input#sub1(type="text", name="s1", value="Oh, Hugo...")
+        .jumbotron 
+          img(src="../stills/snapshot-2.jpg", alt="", style="width:100%;")
+          br
+          p
+            input#sub2(type="text", name="s2", value= "Oh, Wieke...")
+        .jumbotron 
+          img(src="../stills/snapshot-3.jpg", alt="", style="width:100%;")
+          br
+          p
+            input#sub3(type="text", name="s3" value= "Oh, Hugo Hugo")
+        .jumbotron 
+          img(src="../stills/snapshot-4.jpg", alt="", style="width:100%;")
+          br
+          p
+            input#sub4(type="text", name="s4", value= "Oh, Wieke Wieke" )
+        .jumbotron 
+          img(src="../stills/snapshot-5.jpg", alt="", style="width:100%;")
+          br
+          p
+            input#sub5(type="text", name="s5", value = "Oh, Hugo Hugo Hugo")
+        .jumbotron 
+          img(src="../stills/snapshot-6.jpg", alt="", style="width:100%;")
+          br
+          p
+            input#sub6(type="text", name="s6", value= "Oh, Wieke Wieke Wieke")
+        button(type="submit") Ondertitel!
