@@ -1,0 +1,26 @@
+{
+  "name": "movie-subtitler",
+  "version": "1.0.0",
+  "description": "Make new subtitles for movies and burn them permanently into the sequence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinvantveer/movie-subtitler.git"
+  },
+  "author": "Rein van t Veer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reinvantveer/movie-subtitler/issues"
+  },
+  "homepage": "https://github.com/reinvantveer/movie-subtitler#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0"
+  }
+}
